@@ -1,3 +1,5 @@
-["Tim", "Tom", "Jim"].each do |name|
-  puts "Hi, #{name}"
+yielding
+  puts "the program is executing the code inside the method"
+  yield 
+  puts "now we are back in the method"
 end
